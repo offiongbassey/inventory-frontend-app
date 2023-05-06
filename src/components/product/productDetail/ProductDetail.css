@@ -23,6 +23,9 @@
     p b {
       color: var(--dark-blue);
     }
+    p{
+      color: var(--dark-blue)!important;
+    }
   
 
 
