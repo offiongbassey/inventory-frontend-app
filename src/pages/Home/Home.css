@@ -10,7 +10,9 @@ nav {
 .logo {
       color: #fff;
     }
-
+.text-white{
+  color: #fff!important;
+}
 
 .home-links {
   display: flex;

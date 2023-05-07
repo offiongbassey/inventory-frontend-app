@@ -36,7 +36,7 @@ const Home = () => {
       <section className='container'>
         <div className='hero-text'>
           <h2>Inventory { "&" } Stock Management Solution</h2>
-          <p>Inventory system to control and manage products in the warehouse in real time and integrated to make it easier to develop your business.</p>
+          <p className='text-white'>Inventory system to control and manage products in the warehouse in real time and integrated to make it easier to develop your business.</p>
           <div className='hero-buttons'>
           <button className='--btn --btn-secondary'>
             <Link to="/">Free Trial 1 Month</Link>
@@ -61,7 +61,7 @@ const NumberText = ({num, text}) => {
 return (
   <div className='--mr'>
     <h3 className='--color-white'>{num}</h3>
-    <p className='--color-white'>{text}</p>
+    <p className='--color-white text-white'>{text}</p>
   </div>
 )
 };
